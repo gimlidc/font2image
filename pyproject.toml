@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "font2image"
+version = "1.0.0"
+description = "Tool for conversion of vector fonts into numpy array"
+authors = ["Honza Blažek <gimli@matfyz.cz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tqdm = "^4.64.1"
+click = "^8.1.3"
+h5py = "^3.8.0"
+imageio = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+matplotlib = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
